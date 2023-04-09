@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.filehandling_creation_validatation_ExcelSheet_8th_Apr_2023.TestCases">
+      <class name="com.automationcode_Applying_Inheritance_9thApr_2023.LoginTest">
         <methods>
-          <include name="writeDataToTheNewlyCreatedExcelSheet"/>
           <include name="tearDown"/>
+          <include name="verifyingLoginWithInvalidCredentials"/>
+          <include name="verifyingLoginWithValidCredentials"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.filehandling_creation_validatation_ExcelSheet_8th_Apr_2023.TestCases -->
+      </class> <!-- com.automationcode_Applying_Inheritance_9thApr_2023.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
