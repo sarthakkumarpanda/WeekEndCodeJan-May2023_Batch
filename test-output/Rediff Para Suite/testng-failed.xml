@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rediff Para Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Selenium@123"/>
+  <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="username" value="seleniumpanda@rediffmail.com"/>
+  <test thread-count="5" name="Rediff Para Test(failed)">
+    <classes>
+      <class name="com.testngcode_8thApr_2023.Parameterize_Rediff">
+        <methods>
+          <include name="rediffLogin" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngcode_8thApr_2023.Parameterize_Rediff -->
+    </classes>
+  </test> <!-- Rediff Para Test(failed) -->
+</suite> <!-- Failed suite [Rediff Para Suite] -->
