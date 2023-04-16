@@ -1,22 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Learning Batch Run Suite">
-  
-  <test name="Rediff Tests">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testngcode_8thApr_2023.RediffLoginTest"/>
-      <class name="com.testngcode_8thApr_2023.RediffCreateAccountTest"/>
-     </classes>
-  </test>
-  
-      
-     
-   <test name="TutorialsNinja Tests">
-     <classes> 
+      <class name="com.testngcode_9thApr_2003.Demo2"/>
+      <class name="com.automationcode_15thApr_2023.ApplyingInterfaceLogic"/>
+      <class name="com.automationcode_ExtentReports_16thApr_2023.TNRegisterTest"/>
       <class name="com.testngcode_8thApr_2023.TutorialsNinjaRegisterTest"/>
+      <class name="com.testngcode_9thApr_2003.Demo1"/>
+      <class name="com.testngcode_8thApr_2023.Parameterize_TN"/>
       <class name="com.testngcode_8thApr_2023.TutorialsNinjaLoginTest"/>
-     </classes>
+      <class name="com.automationcode_19thMar_2023.Facebook_Xpaths"/>
+      <class name="com.testngcode_2ndApr_2023.SeparateTestCases"/>
+      <class name="com.automationcode_19thMar_2023.TN_Xpaths"/>
+      <class name="com.testngcode_9thApr_2003.Demo3"/>
+      <class name="com.testngcode_8thApr_2023.RediffLoginTest"/>
+      <class name="com.automationcode_18thMar_2023.TN"/>
+      <class name="com.automationcode_15thApr_2023.RediffListenerLoginTest"/>
+      <class name="com.automationcode_19thMar_2023.IntroductionToXpaths"/>
+      <class name="com.testng_assertions_2ndApr_2023.Assertions_Automation"/>
+      <class name="com.automationcode_18thMar_2023.MoreConcepts_Automation"/>
+      <class name="com.automationcode_ExtentReports_16thApr_2023.TNLoginTest"/>
+      <class name="com.automationcode_Applying_Inheritance_9thApr_2023.RegisterTest"/>
+      <class name="com.automationcode_Applying_Inheritance_9thApr_2023.LoginTest"/>
+      <class name="com.automationcode_5thMar_2023.RediffLogin"/>
+      <class name="com.testngcode_8thApr_2023.Parameterize_Rediff"/>
+      <class name="com.automationcode_1st_Apr_2023.Actions_Keyboard"/>
+      <class name="com.automationcode_1st_Apr_2023.Actions_Frame_DragDrop"/>
+      <class name="com.filehandling_creation_validatation_ExcelSheet_8th_Apr_2023.TN_Register_Validate"/>
+      <class name="com.automationcode_25thMar_2023.Facebook_DropDown"/>
+      <class name="com.automationcode_15thApr_2023.TutorialsNinjaListenerRegisterTest"/>
+      <class name="com.testng_assertions_2ndApr_2023.SoftAssert_Concept"/>
+      <class name="com.automationcode_1st_Apr_2023.Actions_Mouse_hovering_rightclick_leftclick"/>
+      <class name="com.filehandling_8thApr_2023.Rediff_and_TN_Login_ExcelSheet"/>
+      <class name="com.automationcode_Applying_Inheritance_9thApr_2023.SearchProductTest"/>
+      <class name="com.automationcode_25thMar_2023.Rediff_CssSelector"/>
+      <class name="com.testngcode_8thApr_2023.RediffCreateAccountTest"/>
+      <class name="com.testng_assertions_2ndApr_2023.HardAssert"/>
+      <class name="com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest"/>
+      <class name="com.automationcode_25thMar_2023.Tn_CssSelector"/>
+      <class name="com.testngcode_9thApr_2003.TNLogin"/>
+      <class name="com.testngcode_18thMar_2023.InvocationCountUse"/>
+      <class name="com.testngcode_2ndApr_2023.DataDriven"/>
+      <class name="com.automationcode_18thMar_2023.TN_Register"/>
+      <class name="com.filehandling_8thApr_2023.Reading_From_Properties_File"/>
+      <class name="com.automationcode_15thApr_2023.TutorialsNinjaListenerLoginTest"/>
+    </classes>
   </test> <!-- Test -->
-  
-  
 </suite> <!-- Suite -->

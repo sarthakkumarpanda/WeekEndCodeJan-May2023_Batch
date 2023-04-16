@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.testng_assertions_2ndApr_2023.HardAssert">
+        <methods>
+          <include name="logicTest"/>
+        </methods>
+      </class> <!-- com.testng_assertions_2ndApr_2023.HardAssert -->
+      <class name="com.testngcode_8thApr_2023.Parameterize_Rediff">
+        <methods>
+          <include name="rediffLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngcode_8thApr_2023.Parameterize_Rediff -->
+      <class name="com.testng_assertions_2ndApr_2023.SoftAssert_Concept">
+        <methods>
+          <include name="logicTest"/>
+        </methods>
+      </class> <!-- com.testng_assertions_2ndApr_2023.SoftAssert_Concept -->
+      <class name="com.testngcode_8thApr_2023.Parameterize_TN">
+        <methods>
+          <include name="TNLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngcode_8thApr_2023.Parameterize_TN -->
+      <class name="com.testngcode_8thApr_2023.RediffCreateAccountTest">
+        <methods>
+          <include name="rediffCreateAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngcode_8thApr_2023.RediffCreateAccountTest -->
+      <class name="com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest">
+        <methods>
+          <include name="rediffLoginTest"/>
+        </methods>
+      </class> <!-- com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

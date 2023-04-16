@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationcode_Applying_Inheritance_9thApr_2023.LoginTest">
+      <class name="com.automationcode_ExtentReports_16thApr_2023.TNLoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyingLoginWithInvalidCredentials"/>
-          <include name="verifyingLoginWithValidCredentials"/>
-          <include name="setUp"/>
+          <include name="clickOnLogoutButton"/>
+          <include name="clickOnLoginButton"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- com.automationcode_Applying_Inheritance_9thApr_2023.LoginTest -->
+      </class> <!-- com.automationcode_ExtentReports_16thApr_2023.TNLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="6" ignored="1" total="41" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="328590" started-at="2023-04-16T17:17:41Z" finished-at="2023-04-16T17:23:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="328590" started-at="2023-04-16T17:17:41Z" finished-at="2023-04-16T17:23:10Z">
+      <class name="com.testngcode_9thApr_2003.TNLogin">
+        <test-method status="PASS" signature="TNLoginChromeTest(java.lang.String, java.lang.String)[pri:0, instance:com.testngcode_9thApr_2003.TNLogin@3270d194]" name="TNLoginChromeTest" duration-ms="12292" started-at="2023-04-16T17:22:37Z" data-provider="TN" finished-at="2023-04-16T17:22:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNLoginChromeTest -->
+        <test-method status="PASS" signature="TNLoginEdgeTest(java.lang.String, java.lang.String)[pri:0, instance:com.testngcode_9thApr_2003.TNLogin@3270d194]" name="TNLoginEdgeTest" duration-ms="9803" started-at="2023-04-16T17:22:49Z" data-provider="TN" finished-at="2023-04-16T17:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNLoginEdgeTest -->
+        <test-method status="PASS" signature="TNLoginFirefoxTest(java.lang.String, java.lang.String)[pri:0, instance:com.testngcode_9thApr_2003.TNLogin@3270d194]" name="TNLoginFirefoxTest" duration-ms="11124" started-at="2023-04-16T17:22:59Z" data-provider="TN" finished-at="2023-04-16T17:23:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNLoginFirefoxTest -->
+      </class> <!-- com.testngcode_9thApr_2003.TNLogin -->
+      <class name="com.automationcode_1st_Apr_2023.Actions_Keyboard">
+        <test-method status="PASS" signature="keyBoardActionItems()[pri:0, instance:com.automationcode_1st_Apr_2023.Actions_Keyboard@128d2484]" name="keyBoardActionItems" duration-ms="9098" started-at="2023-04-16T17:21:23Z" finished-at="2023-04-16T17:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyBoardActionItems -->
+      </class> <!-- com.automationcode_1st_Apr_2023.Actions_Keyboard -->
+      <class name="com.testngcode_8thApr_2023.Parameterize_Rediff">
+        <test-method status="FAIL" signature="rediffLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testngcode_8thApr_2023.Parameterize_Rediff@459e9125]" name="rediffLogin" duration-ms="0" started-at="2023-04-16T17:21:11Z" finished-at="2023-04-16T17:21:11Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by @Test on method rediffLogin but has not been marked @Optional or defined
+in C:\Users\sarth\eclipse-workspace\WEEKEND_AUTOMATION_CODE\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by @Test on method rediffLogin but has not been marked @Optional or defined
+in C:\Users\sarth\eclipse-workspace\WEEKEND_AUTOMATION_CODE\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLogin -->
+      </class> <!-- com.testngcode_8thApr_2023.Parameterize_Rediff -->
+      <class name="com.automationcode_15thApr_2023.TutorialsNinjaListenerRegisterTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_15thApr_2023.TutorialsNinjaListenerRegisterTest@368f2016]" name="openBrowser" is-config="true" duration-ms="6233" started-at="2023-04-16T17:17:54Z" finished-at="2023-04-16T17:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="registerPage()[pri:0, instance:com.automationcode_15thApr_2023.TutorialsNinjaListenerRegisterTest@368f2016]" name="registerPage" duration-ms="12552" started-at="2023-04-16T17:18:00Z" finished-at="2023-04-16T17:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_15thApr_2023.TutorialsNinjaListenerRegisterTest@368f2016]" name="tearDown" is-config="true" duration-ms="664" started-at="2023-04-16T17:18:13Z" finished-at="2023-04-16T17:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationcode_15thApr_2023.TutorialsNinjaListenerRegisterTest -->
+      <class name="com.automationcode_25thMar_2023.Facebook_DropDown">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.automationcode_25thMar_2023.Facebook_DropDown@4d5d943d]" name="openUrl" is-config="true" duration-ms="3782" started-at="2023-04-16T17:17:41Z" finished-at="2023-04-16T17:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="dropDownTest()[pri:0, instance:com.automationcode_25thMar_2023.Facebook_DropDown@4d5d943d]" name="dropDownTest" duration-ms="3280" started-at="2023-04-16T17:17:45Z" finished-at="2023-04-16T17:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_25thMar_2023.Facebook_DropDown@4d5d943d]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-04-16T17:17:48Z" finished-at="2023-04-16T17:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationcode_25thMar_2023.Facebook_DropDown -->
+      <class name="com.testngcode_9thApr_2003.Demo2">
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.testngcode_9thApr_2003.Demo2@49e53c76]" name="method2" duration-ms="6" started-at="2023-04-16T17:17:41Z" finished-at="2023-04-16T17:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method22()[pri:0, instance:com.testngcode_9thApr_2003.Demo2@49e53c76]" name="method22" duration-ms="0" started-at="2023-04-16T17:17:41Z" finished-at="2023-04-16T17:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method22 -->
+        <test-method status="PASS" signature="method222()[pri:0, instance:com.testngcode_9thApr_2003.Demo2@49e53c76]" name="method222" duration-ms="0" started-at="2023-04-16T17:17:41Z" finished-at="2023-04-16T17:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method222 -->
+      </class> <!-- com.testngcode_9thApr_2003.Demo2 -->
+      <class name="com.testng_assertions_2ndApr_2023.SoftAssert_Concept">
+        <test-method status="FAIL" signature="logicTest()[pri:0, instance:com.testng_assertions_2ndApr_2023.SoftAssert_Concept@4c583ecf]" name="logicTest" duration-ms="3" started-at="2023-04-16T17:18:31Z" finished-at="2023-04-16T17:18:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+null
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.testng_assertions_2ndApr_2023.SoftAssert_Concept.logicTest(SoftAssert_Concept.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logicTest -->
+      </class> <!-- com.testng_assertions_2ndApr_2023.SoftAssert_Concept -->
+      <class name="com.testngcode_9thApr_2003.Demo1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.testngcode_9thApr_2003.Demo1@35d019a3]" name="method1" duration-ms="0" started-at="2023-04-16T17:18:48Z" finished-at="2023-04-16T17:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method11()[pri:0, instance:com.testngcode_9thApr_2003.Demo1@35d019a3]" name="method11" duration-ms="1" started-at="2023-04-16T17:18:48Z" finished-at="2023-04-16T17:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method11 -->
+        <test-method status="PASS" signature="method111()[pri:0, instance:com.testngcode_9thApr_2003.Demo1@35d019a3]" name="method111" duration-ms="0" started-at="2023-04-16T17:18:48Z" finished-at="2023-04-16T17:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method111 -->
+      </class> <!-- com.testngcode_9thApr_2003.Demo1 -->
+      <class name="com.automationcode_ExtentReports_16thApr_2023.TNRegisterTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_ExtentReports_16thApr_2023.TNRegisterTest@2a3b5b47]" name="openBrowser" is-config="true" duration-ms="4793" started-at="2023-04-16T17:18:13Z" finished-at="2023-04-16T17:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="registerPage()[pri:0, instance:com.automationcode_ExtentReports_16thApr_2023.TNRegisterTest@2a3b5b47]" name="registerPage" duration-ms="11706" started-at="2023-04-16T17:18:18Z" finished-at="2023-04-16T17:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_ExtentReports_16thApr_2023.TNRegisterTest@2a3b5b47]" name="tearDown" is-config="true" duration-ms="792" started-at="2023-04-16T17:18:30Z" finished-at="2023-04-16T17:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationcode_ExtentReports_16thApr_2023.TNRegisterTest -->
+      <class name="com.testngcode_9thApr_2003.Demo3">
+        <test-method status="PASS" signature="method33()[pri:0, instance:com.testngcode_9thApr_2003.Demo3@3023df74]" name="method33" duration-ms="0" started-at="2023-04-16T17:18:56Z" finished-at="2023-04-16T17:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method33 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:com.testngcode_9thApr_2003.Demo3@3023df74]" name="method3" duration-ms="0" started-at="2023-04-16T17:18:56Z" finished-at="2023-04-16T17:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method333()[pri:0, instance:com.testngcode_9thApr_2003.Demo3@3023df74]" name="method333" duration-ms="0" started-at="2023-04-16T17:18:56Z" finished-at="2023-04-16T17:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method333 -->
+      </class> <!-- com.testngcode_9thApr_2003.Demo3 -->
+      <class name="com.testngcode_8thApr_2023.RediffCreateAccountTest">
+        <test-method status="FAIL" signature="rediffCreateAccount()[pri:0, instance:com.testngcode_8thApr_2023.RediffCreateAccountTest@1aafa419]" name="rediffCreateAccount" duration-ms="10778" started-at="2023-04-16T17:21:11Z" finished-at="2023-04-16T17:21:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.testngcode_8thApr_2023.RediffCreateAccountTest.rediffCreateAccount(RediffCreateAccountTest.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffCreateAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngcode_8thApr_2023.RediffCreateAccountTest@1aafa419]" name="tearDown" is-config="true" duration-ms="854" started-at="2023-04-16T17:21:22Z" finished-at="2023-04-16T17:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngcode_8thApr_2023.RediffCreateAccountTest -->
+      <class name="com.automationcode_25thMar_2023.Rediff_CssSelector">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="openBrowser" is-config="true" duration-ms="9756" started-at="2023-04-16T17:19:25Z" finished-at="2023-04-16T17:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="clickOnSignInLink()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="clickOnSignInLink" duration-ms="3732" started-at="2023-04-16T17:19:34Z" finished-at="2023-04-16T17:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="tearDown" is-config="true" duration-ms="710" started-at="2023-04-16T17:19:38Z" finished-at="2023-04-16T17:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="openBrowser" is-config="true" duration-ms="3320" started-at="2023-04-16T17:19:39Z" finished-at="2023-04-16T17:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="logOut" duration-ms="44380" started-at="2023-04-16T17:19:42Z" finished-at="2023-04-16T17:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="tearDown" is-config="true" duration-ms="644" started-at="2023-04-16T17:20:27Z" finished-at="2023-04-16T17:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="openBrowser" is-config="true" duration-ms="7255" started-at="2023-04-16T17:20:27Z" finished-at="2023-04-16T17:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="loginCredentials" duration-ms="7948" started-at="2023-04-16T17:20:35Z" finished-at="2023-04-16T17:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_25thMar_2023.Rediff_CssSelector@a1153bc]" name="tearDown" is-config="true" duration-ms="737" started-at="2023-04-16T17:20:42Z" finished-at="2023-04-16T17:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationcode_25thMar_2023.Rediff_CssSelector -->
+      <class name="com.testng_assertions_2ndApr_2023.HardAssert">
+        <test-method status="FAIL" signature="logicTest()[pri:0, instance:com.testng_assertions_2ndApr_2023.HardAssert@47eaca72]" name="logicTest" duration-ms="0" started-at="2023-04-16T17:21:32Z" finished-at="2023-04-16T17:21:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.testng_assertions_2ndApr_2023.HardAssert.logicTest(HardAssert.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logicTest -->
+      </class> <!-- com.testng_assertions_2ndApr_2023.HardAssert -->
+      <class name="com.automationcode_19thMar_2023.IntroductionToXpaths">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automationcode_19thMar_2023.IntroductionToXpaths@4135c3b]" name="setup" is-config="true" duration-ms="5126" started-at="2023-04-16T17:18:56Z" finished-at="2023-04-16T17:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnSignInLink()[pri:0, instance:com.automationcode_19thMar_2023.IntroductionToXpaths@4135c3b]" name="clickOnSignInLink" duration-ms="1936" started-at="2023-04-16T17:19:01Z" finished-at="2023-04-16T17:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automationcode_19thMar_2023.IntroductionToXpaths@4135c3b]" name="teardown" is-config="true" duration-ms="704" started-at="2023-04-16T17:19:03Z" finished-at="2023-04-16T17:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automationcode_19thMar_2023.IntroductionToXpaths@4135c3b]" name="setup" is-config="true" duration-ms="3399" started-at="2023-04-16T17:19:04Z" finished-at="2023-04-16T17:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterLoginCredentials()[pri:0, instance:com.automationcode_19thMar_2023.IntroductionToXpaths@4135c3b]" name="enterLoginCredentials" duration-ms="3862" started-at="2023-04-16T17:19:08Z" finished-at="2023-04-16T17:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginCredentials -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automationcode_19thMar_2023.IntroductionToXpaths@4135c3b]" name="teardown" is-config="true" duration-ms="611" started-at="2023-04-16T17:19:11Z" finished-at="2023-04-16T17:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationcode_19thMar_2023.IntroductionToXpaths -->
+      <class name="com.automationcode_25thMar_2023.Tn_CssSelector">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_25thMar_2023.Tn_CssSelector@55182842]" name="openBrowser" is-config="true" duration-ms="7148" started-at="2023-04-16T17:22:29Z" finished-at="2023-04-16T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="completeLogin()[pri:0, instance:com.automationcode_25thMar_2023.Tn_CssSelector@55182842]" name="completeLogin" duration-ms="623" started-at="2023-04-16T17:22:36Z" finished-at="2023-04-16T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_25thMar_2023.Tn_CssSelector@55182842]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-04-16T17:22:36Z" finished-at="2023-04-16T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationcode_25thMar_2023.Tn_CssSelector -->
+      <class name="com.testngcode_8thApr_2023.TutorialsNinjaLoginTest">
+        <test-method status="PASS" signature="TNLogin()[pri:0, instance:com.testngcode_8thApr_2023.TutorialsNinjaLoginTest@18078bef]" name="TNLogin" duration-ms="7446" started-at="2023-04-16T17:18:48Z" finished-at="2023-04-16T17:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngcode_8thApr_2023.TutorialsNinjaLoginTest@18078bef]" name="tearDown" is-config="true" duration-ms="684" started-at="2023-04-16T17:18:56Z" finished-at="2023-04-16T17:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngcode_8thApr_2023.TutorialsNinjaLoginTest -->
+      <class name="com.automationcode_18thMar_2023.TN_Register">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automationcode_18thMar_2023.TN_Register@4218d6a3]" name="openBrowser" is-config="true" duration-ms="4513" started-at="2023-04-16T17:20:43Z" finished-at="2023-04-16T17:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="registerPage()[pri:0, instance:com.automationcode_18thMar_2023.TN_Register@4218d6a3]" name="registerPage" duration-ms="11990" started-at="2023-04-16T17:20:48Z" finished-at="2023-04-16T17:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationcode_18thMar_2023.TN_Register@4218d6a3]" name="tearDown" is-config="true" duration-ms="698" started-at="2023-04-16T17:21:00Z" finished-at="2023-04-16T17:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationcode_18thMar_2023.TN_Register -->
+      <class name="com.testngcode_8thApr_2023.Parameterize_TN">
+        <test-method status="FAIL" signature="TNLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testngcode_8thApr_2023.Parameterize_TN@689604d9]" name="TNLogin" duration-ms="0" started-at="2023-04-16T17:18:48Z" finished-at="2023-04-16T17:18:48Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by @Test on method TNLogin but has not been marked @Optional or defined
+in C:\Users\sarth\eclipse-workspace\WEEKEND_AUTOMATION_CODE\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by @Test on method TNLogin but has not been marked @Optional or defined
+in C:\Users\sarth\eclipse-workspace\WEEKEND_AUTOMATION_CODE\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNLogin -->
+      </class> <!-- com.testngcode_8thApr_2023.Parameterize_TN -->
+      <class name="com.automationcode_5thMar_2023.RediffLogin">
+        <test-method status="PASS" signature="rediffTest()[pri:0, instance:com.automationcode_5thMar_2023.RediffLogin@6f1de4c7]" name="rediffTest" duration-ms="12702" started-at="2023-04-16T17:19:12Z" finished-at="2023-04-16T17:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffTest -->
+      </class> <!-- com.automationcode_5thMar_2023.RediffLogin -->
+      <class name="com.automationcode_1st_Apr_2023.Actions_Frame_DragDrop">
+        <test-method status="PASS" signature="handlingFrames()[pri:0, instance:com.automationcode_1st_Apr_2023.Actions_Frame_DragDrop@7cc0cdad]" name="handlingFrames" duration-ms="2485" started-at="2023-04-16T17:21:32Z" finished-at="2023-04-16T17:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingFrames -->
+      </class> <!-- com.automationcode_1st_Apr_2023.Actions_Frame_DragDrop -->
+      <class name="com.automationcode_1st_Apr_2023.Actions_Mouse_hovering_rightclick_leftclick">
+        <test-method status="PASS" signature="mouseActionsTest()[pri:0, instance:com.automationcode_1st_Apr_2023.Actions_Mouse_hovering_rightclick_leftclick@692f203f]" name="mouseActionsTest" duration-ms="6867" started-at="2023-04-16T17:18:41Z" finished-at="2023-04-16T17:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseActionsTest -->
+      </class> <!-- com.automationcode_1st_Apr_2023.Actions_Mouse_hovering_rightclick_leftclick -->
+      <class name="com.testngcode_8thApr_2023.TutorialsNinjaRegisterTest">
+        <test-method status="PASS" signature="TNRegister()[pri:0, instance:com.testngcode_8thApr_2023.TutorialsNinjaRegisterTest@55b699ef]" name="TNRegister" duration-ms="10083" started-at="2023-04-16T17:18:31Z" finished-at="2023-04-16T17:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngcode_8thApr_2023.TutorialsNinjaRegisterTest@55b699ef]" name="tearDown" is-config="true" duration-ms="676" started-at="2023-04-16T17:18:41Z" finished-at="2023-04-16T17:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngcode_8thApr_2023.TutorialsNinjaRegisterTest -->
+      <class name="com.automationcode_15thApr_2023.ApplyingInterfaceLogic">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.automationcode_15thApr_2023.ApplyingInterfaceLogic@351d00c0]" name="test" duration-ms="5487" started-at="2023-04-16T17:17:48Z" finished-at="2023-04-16T17:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.automationcode_15thApr_2023.ApplyingInterfaceLogic -->
+      <class name="com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest">
+        <test-method status="PASS" signature="TNLoginTest()[pri:0, instance:com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest@55141def]" name="TNLoginTest" duration-ms="9296" started-at="2023-04-16T17:21:34Z" finished-at="2023-04-16T17:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNLoginTest -->
+        <test-method status="SKIP" signature="rediffLoginTest()[pri:0, instance:com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest@55141def]" name="rediffLoginTest" duration-ms="10319" started-at="2023-04-16T17:21:43Z" finished-at="2023-04-16T17:21:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest.rediffLoginTest(TnRediffTest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLoginTest -->
+        <test-method status="SKIP" signature="rediffLoginTest()[pri:0, instance:com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest@55141def]" name="rediffLoginTest" duration-ms="10869" started-at="2023-04-16T17:21:54Z" finished-at="2023-04-16T17:22:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest.rediffLoginTest(TnRediffTest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLoginTest -->
+        <test-method status="SKIP" signature="rediffLoginTest()[pri:0, instance:com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest@55141def]" name="rediffLoginTest" duration-ms="10828" started-at="2023-04-16T17:22:05Z" finished-at="2023-04-16T17:22:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest.rediffLoginTest(TnRediffTest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLoginTest -->
+        <test-method status="FAIL" signature="rediffLoginTest()[pri:0, instance:com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest@55141def]" name="rediffLoginTest" duration-ms="13200" started-at="2023-04-16T17:22:15Z" finished-at="2023-04-16T17:22:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest.rediffLoginTest(TnRediffTest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLoginTest -->
+      </class> <!-- com.testngcode_9thApr_2023_Retry_Failed_TestCases.TnRediffTest -->
+      <class name="com.testngcode_8thApr_2023.RediffLoginTest">
+        <test-method status="PASS" signature="rediffLogin()[pri:0, instance:com.testngcode_8thApr_2023.RediffLoginTest@313ac989]" name="rediffLogin" duration-ms="9901" started-at="2023-04-16T17:21:00Z" finished-at="2023-04-16T17:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngcode_8thApr_2023.RediffLoginTest@313ac989]" name="tearDown" is-config="true" duration-ms="646" started-at="2023-04-16T17:21:10Z" finished-at="2023-04-16T17:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngcode_8thApr_2023.RediffLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

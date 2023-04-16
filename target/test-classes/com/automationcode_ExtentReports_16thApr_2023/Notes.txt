@@ -1,0 +1,47 @@
+TestCases should be ready
+MyListener Class needs to be there
+You have to create another package>class which holds the Extent Report code
+Then you have to connect MyListener Class with the Class that has ER code
+certain changes in pass methods too and skip methods
+Then in the onTestFailure() method we need to write the code for capturing failure screenshot
+
+-------------------------------------------------------------------------------------------
+
+Maven Compiler Plugin
+Maven SureFire Plugin
+
+how to run a Maven Project from the cmd prompt
+
+copy the path of the project
+
+open cmd
+
+cd pathoftheProject
+
+mvn compile
+
+mvn test
+
+
+mvn clean
+mvn compile
+mvn test
+
+mvn clean compile test
+--------------------------------------------------------------------------------------------
+
+JENKINS
+download all the maven plugins
+restarted your JENKINS
+configure JDK 
+configure git.exe path
+configure maven
+
+Create a Maven Project in jenkins
+Pass the github link in the github section
+
+pass the path of pom.xml file - in case you are not using github
+
+pom.xml
+clean install
+---------------------------------------------------------------------------------------------
