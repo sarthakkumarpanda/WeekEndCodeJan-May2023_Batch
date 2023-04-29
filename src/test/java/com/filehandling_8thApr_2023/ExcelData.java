@@ -34,7 +34,7 @@ public class ExcelData {
 
 		workbook = new XSSFWorkbook(ip);
 		
-	    XSSFSheet sheet = workbook.getSheet(sheetName);
+	    sheet = workbook.getSheet(sheetName);
 		
 		int rows = sheet.getLastRowNum();
 		int cols = sheet.getRow(0).getLastCellNum();
@@ -77,7 +77,7 @@ public static Object[][] readDataFromExcelForTN(String sheetName) throws Excepti
 
 		workbook = new XSSFWorkbook(ip);
 		
-	    XSSFSheet sheet = workbook.getSheet(sheetName);
+	    sheet = workbook.getSheet(sheetName);
 		
 		int rows = sheet.getLastRowNum();
 		int cols = sheet.getRow(0).getLastCellNum();
