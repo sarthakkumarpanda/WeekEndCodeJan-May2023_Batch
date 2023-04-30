@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.filehandling_8thApr_2023.Rediff_and_TN_Login_ExcelSheet">
+      <class name="com.automationcode_WindowHandles_30th_Apr_2023.Windows_Selenium">
         <methods>
+          <include name="button3"/>
           <include name="tearDown"/>
-          <include name="rediffLogin"/>
-          <include name="tnLogin"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.filehandling_8thApr_2023.Rediff_and_TN_Login_ExcelSheet -->
+      </class> <!-- com.automationcode_WindowHandles_30th_Apr_2023.Windows_Selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
