@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationcode_WindowHandles_30th_Apr_2023.Windows_Selenium">
+      <class name="automation_extra_topics.Headless_Mode">
         <methods>
-          <include name="button3"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="chromeBrowserHeadlessMode"/>
         </methods>
-      </class> <!-- com.automationcode_WindowHandles_30th_Apr_2023.Windows_Selenium -->
+      </class> <!-- automation_extra_topics.Headless_Mode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
