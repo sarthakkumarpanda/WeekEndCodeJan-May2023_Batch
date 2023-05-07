@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation_extra_topics.Headless_Mode">
+      <class name="automation_extra_topics.Multiple_WebElements">
         <methods>
-          <include name="chromeBrowserHeadlessMode"/>
+          <include name="bbcHeaderLinks"/>
         </methods>
-      </class> <!-- automation_extra_topics.Headless_Mode -->
+      </class> <!-- automation_extra_topics.Multiple_WebElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
