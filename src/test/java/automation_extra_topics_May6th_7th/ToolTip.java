@@ -1,4 +1,4 @@
-package automation_extra_topics;
+package automation_extra_topics_May6th_7th;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

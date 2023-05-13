@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation_extra_topics.Multiple_WebElements">
+      <class name="automationcode_13thMay_2023_CalendarsDatePicker.LearnVariousCalendars">
         <methods>
-          <include name="bbcHeaderLinks"/>
+          <include name="part1"/>
         </methods>
-      </class> <!-- automation_extra_topics.Multiple_WebElements -->
+      </class> <!-- automationcode_13thMay_2023_CalendarsDatePicker.LearnVariousCalendars -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

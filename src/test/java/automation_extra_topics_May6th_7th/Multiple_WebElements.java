@@ -1,4 +1,4 @@
-package automation_extra_topics;
+package automation_extra_topics_May6th_7th;
 
 import java.io.FileInputStream;
 import java.util.List;
@@ -113,7 +113,7 @@ public class Multiple_WebElements {
 		driver.get("https://bbc.com");
 		//nav.orbit-header-links.international >ul > li
 		
-		List<WebElement> BBCHeaderLinks = driver.findElements(By.cssSelector("nav.orbit-header-links.international >ul > li"));
+		List<WebElement> BBCHeaderLinks = driver.findElements(By.xpath("//*[@id=\"orb-header\"]/div/nav[2]/ul/li/a"));
 		System.out.println(BBCHeaderLinks.size());
 		
 		for(int i=0 ; i<BBCHeaderLinks.size(); i++) {
@@ -128,7 +128,7 @@ public class Multiple_WebElements {
 			BBCHeaderLinks.get(i).click();
 			System.out.println("Title of this page is : " + driver.getTitle());
 			driver.get("https://bbc.com");
-			BBCHeaderLinks = driver.findElements(By.cssSelector("nav.orbit-header-links.international >ul > li"));
+			BBCHeaderLinks = driver.findElements(By.xpath("//*[@id=\\\"orb-header\\\"]/div/nav[2]/ul/li/a"));
 			
 			}
 		softassert.assertAll();
