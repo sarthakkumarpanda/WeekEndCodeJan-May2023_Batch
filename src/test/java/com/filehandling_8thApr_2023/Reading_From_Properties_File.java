@@ -1,9 +1,7 @@
 package com.filehandling_8thApr_2023;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +14,7 @@ public class Reading_From_Properties_File {
 	public WebDriver driver;
 	
 	@Test(priority = 1)
-	public void TNLogin() throws IOException {
+	public void TNLogin() throws Exception {
 		//Step 1 - Create the Object of Properties class
 		//Step 2 - Create the Object of FileInputStream class
 	//	C:\Users\sarth\eclipse-workspace\WEEKEND_AUTOMATION_CODE\src\test\java\com\filehandling_8thApr_2023\tutorialsninja.properties

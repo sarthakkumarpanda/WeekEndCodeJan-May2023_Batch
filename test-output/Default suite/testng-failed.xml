@@ -5,7 +5,7 @@
     <classes>
       <class name="automationcode_14thMay_2023_PracticeCalendars.MakeMyTrip">
         <methods>
-          <include name="addDepartureArrivalDate"/>
+          <include name="part2"/>
         </methods>
       </class> <!-- automationcode_14thMay_2023_PracticeCalendars.MakeMyTrip -->
     </classes>

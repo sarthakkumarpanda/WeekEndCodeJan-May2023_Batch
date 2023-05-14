@@ -1,9 +1,7 @@
 package automation_extra_topics_May6th_7th;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
-
 import org.apache.http.client.fluent.Request;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,7 +23,7 @@ public class ResponseCode {
 	public ChromeOptions options;
 	
 	@Test
-	public void determineResponseCode() throws Exception, IOException {
+	public void determineResponseCode() throws Exception  {
 		options = new ChromeOptions();
 		Properties prop = new Properties();
 		FileInputStream ip = new FileInputStream(

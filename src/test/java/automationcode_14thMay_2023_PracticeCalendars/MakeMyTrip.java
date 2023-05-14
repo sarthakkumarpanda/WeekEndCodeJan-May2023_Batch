@@ -79,7 +79,7 @@ public class MakeMyTrip {
 		Thread.sleep(2000);
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("datePickerContainer")));
-		
+
 		Thread.sleep(2000);
 		selectDateCalendarDepartureDate("27", "July", "2023");
 
@@ -113,7 +113,7 @@ public class MakeMyTrip {
 			month = monthYear.split(" ")[0];
 			year = monthYear.split(" ")[1];
 		}
-		String dXpath = "//div[@class = 'DayPicker-Day'][@aria-label = \'" + dateTimeStamp() + "\"']"
+		String dXpath = "//div[@class = 'DayPicker-Day'][@aria-label = \'" + dateTimeStamp() + "\']"
 				+ "/child::div[@class = 'dateInnerCell']/child::p[text() = \'" + calendarDay + "\']";
 
 		try {
@@ -148,7 +148,7 @@ public class MakeMyTrip {
 			year = monthYear.split(" ")[1];
 		}
 
-		String rXpath = "//div[@class = 'DayPicker-Day'][@aria-label = \'" + dateTimeStamp() + "\"']"
+		String rXpath = "//div[@class = 'DayPicker-Day'][@aria-label = \'" + dateTimeStamp() + "\']"
 				+ "/child::div[@class = 'dateInnerCell']/child::p[text() = \'" + calendarDay + "\']";
 
 		try {
